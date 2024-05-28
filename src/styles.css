@@ -1,0 +1,23 @@
+/* Add your CSS styles here */
+#character {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+#xp-widget, #money-widget {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+}
+
+#xp-widget {
+    left: 10px;
+}
+
+#money-widget {
+    right: 10px;
+}
