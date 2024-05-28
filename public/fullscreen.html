@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fullscreen Game</title>
+    <link rel="stylesheet" href="../src/styles.css">
+</head>
+<body>
+    <div id="xp-widget">XP: 0</div>
+    <div id="money-widget">$: 0</div>
+
+    <div id="main-section">
+        <div id="character">Tap me!</div>
+    </div>
+
+    <div id="make-money-section">
+        <label>
+            MACD
+            <input type="checkbox" id="macd-toggle">
+        </label>
+        <label>
+            RSI
+            <input type="checkbox" id="rsi-toggle">
+        </label>
+        <div id="make-money-bar" style="width: 100px; height: 100px; border: 1px solid black; border-radius: 50%;"></div>
+    </div>
+
+    <div id="work-section">
+        <button id="green-button">Green</button>
+        <button id="red-button">Red</button>
+    </div>
+
+    <div id="task-section">
+        <button id="subscribe-button">Subscribe</button>
+    </div>
+
+    <video id="loading-video" controls>
+        <source src="path/to/your/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <script src="../src/game.js"></script>
+</body>
+</html>
